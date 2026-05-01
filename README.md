@@ -15,8 +15,8 @@ Linear, Ridge, and Lasso Regression for baseline and regularization.
 Decision Tree and Random Forest for non-linear prediction and classification tasks.
 
 # Results
-Linear and Ridge Regression performed best with lower error (RMSE ≈ 2.18).
-Random Forest performed well for classification and feature importance insights (F1 ≈ 0.98).
+Linear and Ridge Regression performed best with lower error (RMSE ≈ 2.18). 
+Random Forest achieved strong performance in classification tasks (F1 ≈ 0.98).
 
 # Limitations
 Depends on dataset quality and may not generalize to all real-world scenarios.
