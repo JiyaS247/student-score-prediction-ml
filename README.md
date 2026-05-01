@@ -1,27 +1,29 @@
 # Problem Statement
 Predict student exam performance using academic, lifestyle, and socioeconomic factors.
-Help identify key influences to support early intervention and better academic decisions.
+Identify key drivers to enable early intervention and improve academic outcomes.
 
 # Dataset Description
-Uses the StudentPerformanceFactors dataset with features like study hours, attendance, sleep, and previous scores.
-Target variable is Exam_Score for prediction.
+StudentPerformanceFactors dataset with features like study hours, attendance, sleep, and previous scores.
+Target variable is **Exam_Score** with ~6600 student records.
 
 # Steps Performed
-Data preprocessing, EDA, feature engineering, and model training on split datasets.
-Evaluation done using metrics like R², MAE, RMSE with cross-validation.
+Data preprocessing, EDA, feature engineering, and model training using train-test split.
+Model evaluation using R², MAE, RMSE along with visualization and insights.
 
 # Models Used
-Linear, Ridge, and Lasso Regression for baseline and feature selection.
-Decision Tree and Random Forest for capturing non-linear patterns and better accuracy.
+Linear, Ridge, and Lasso Regression for baseline and regularization.
+Decision Tree and Random Forest for non-linear prediction and classification tasks.
 
 # Results
-Random Forest performed best with highest prediction accuracy.
-Key factors like study hours, attendance, and prior scores strongly influenced performance. [(F1 ≈ 0.98), RMSE (~2.18)] 
+Linear and Ridge Regression performed best with lower error (RMSE ≈ 2.18).
+Random Forest performed well for classification and feature importance insights (F1 ≈ 0.98).
 
 # Limitations
-Model depends on dataset quality and may not generalize to all student populations.
-Limited real-world factors and possible bias in data can affect accuracy.
+Depends on dataset quality and may not generalize to all real-world scenarios.
+Limited features and possible bias can affect prediction accuracy.
 
 # Future Improvements
-Use larger, real-world datasets and include more behavioral or psychological factors.
-Apply advanced models like boosting or deep learning for improved performance.
+Use real-world datasets and include behavioral/psychological factors.
+Implement advanced models like XGBoost, deep learning, and deploy as a web app.
+
+
